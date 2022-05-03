@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472620983EA8C3704870FB0C /* Pods_SHOPVN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533F8929D2900F7956564145 /* Pods_SHOPVN.framework */; };
+		7903DDFB27FDF4D9000C0F22 /* SplashScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7903DDFA27FDF4D9000C0F22 /* SplashScreenController.swift */; };
 		7983144127FDA9AE0036C148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983144027FDA9AE0036C148 /* AppDelegate.swift */; };
 		7983144327FDA9AE0036C148 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983144227FDA9AE0036C148 /* SceneDelegate.swift */; };
-		7983144527FDA9AE0036C148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983144427FDA9AE0036C148 /* ViewController.swift */; };
 		7983144827FDA9AE0036C148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7983144627FDA9AE0036C148 /* Main.storyboard */; };
 		7983144A27FDA9AF0036C148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7983144927FDA9AF0036C148 /* Assets.xcassets */; };
 		7983144D27FDA9AF0036C148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7983144B27FDA9AF0036C148 /* LaunchScreen.storyboard */; };
+		7983145827FDAC1E0036C148 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7983145527FDAC1E0036C148 /* Gilroy-SemiBold.ttf */; };
+		7983145927FDAC1E0036C148 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7983145627FDAC1E0036C148 /* Gilroy-Medium.ttf */; };
+		7983145A27FDAC1E0036C148 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7983145727FDAC1E0036C148 /* Gilroy-Regular.ttf */; };
+		79B3814E2820D66F00A1F28C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3814D2820D66F00A1F28C /* LoginViewController.swift */; };
+		79B381502820D68900A1F28C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3814F2820D68900A1F28C /* RegisterViewController.swift */; };
+		79B381532820D7E200A1F28C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B381522820D7E200A1F28C /* APIManager.swift */; };
+		79B381552820DBAF00A1F28C /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B381542820DBAF00A1F28C /* APIController.swift */; };
+		79B381572820DE1100A1F28C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B381562820DE1100A1F28C /* APIService.swift */; };
+		79B3815A2820DED800A1F28C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B381592820DED800A1F28C /* Account.swift */; };
+		79B3815C2820E7D900A1F28C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3815B2820E7D900A1F28C /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		533F8929D2900F7956564145 /* Pods_SHOPVN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHOPVN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE2C2941C2465BDE001E2BA /* Pods-SHOPVN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHOPVN.release.xcconfig"; path = "Target Support Files/Pods-SHOPVN/Pods-SHOPVN.release.xcconfig"; sourceTree = "<group>"; };
+		7903DDFA27FDF4D9000C0F22 /* SplashScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenController.swift; sourceTree = "<group>"; };
 		7983143D27FDA9AE0036C148 /* SHOPVN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHOPVN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7983144027FDA9AE0036C148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7983144227FDA9AE0036C148 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7983144427FDA9AE0036C148 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7983144727FDA9AE0036C148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7983144927FDA9AF0036C148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7983144C27FDA9AF0036C148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7983144E27FDA9AF0036C148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7983145527FDAC1E0036C148 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		7983145627FDAC1E0036C148 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		7983145727FDAC1E0036C148 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		79B3814D2820D66F00A1F28C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		79B3814F2820D68900A1F28C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		79B381522820D7E200A1F28C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		79B381542820DBAF00A1F28C /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		79B381562820DE1100A1F28C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		79B381592820DED800A1F28C /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		79B3815B2820E7D900A1F28C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E6F8B012F05727D6E3242855 /* Pods-SHOPVN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHOPVN.debug.xcconfig"; path = "Target Support Files/Pods-SHOPVN/Pods-SHOPVN.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472620983EA8C3704870FB0C /* Pods_SHOPVN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0166BECE540E5B25E7D1B088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				533F8929D2900F7956564145 /* Pods_SHOPVN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51ACE398CE6C89967D226E8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F8B012F05727D6E3242855 /* Pods-SHOPVN.debug.xcconfig */,
+				6DE2C2941C2465BDE001E2BA /* Pods-SHOPVN.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7903DDF927FDF3E6000C0F22 /* vectors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vectors;
+			sourceTree = "<group>";
+		};
 		7983143427FDA9AE0036C148 = {
 			isa = PBXGroup;
 			children = (
 				7983143F27FDA9AE0036C148 /* SHOPVN */,
 				7983143E27FDA9AE0036C148 /* Products */,
+				51ACE398CE6C89967D226E8E /* Pods */,
+				0166BECE540E5B25E7D1B088 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +107,58 @@
 		7983143F27FDA9AE0036C148 /* SHOPVN */ = {
 			isa = PBXGroup;
 			children = (
+				79B381582820DECA00A1F28C /* Model */,
+				79B381512820D7AA00A1F28C /* API */,
+				79B3814C2820D64300A1F28C /* ViewController */,
+				7903DDF927FDF3E6000C0F22 /* vectors */,
+				7983145427FDABA00036C148 /* fonts */,
 				7983144027FDA9AE0036C148 /* AppDelegate.swift */,
 				7983144227FDA9AE0036C148 /* SceneDelegate.swift */,
-				7983144427FDA9AE0036C148 /* ViewController.swift */,
 				7983144627FDA9AE0036C148 /* Main.storyboard */,
 				7983144927FDA9AF0036C148 /* Assets.xcassets */,
 				7983144B27FDA9AF0036C148 /* LaunchScreen.storyboard */,
 				7983144E27FDA9AF0036C148 /* Info.plist */,
+				7903DDFA27FDF4D9000C0F22 /* SplashScreenController.swift */,
 			);
 			path = SHOPVN;
+			sourceTree = "<group>";
+		};
+		7983145427FDABA00036C148 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7983145627FDAC1E0036C148 /* Gilroy-Medium.ttf */,
+				7983145727FDAC1E0036C148 /* Gilroy-Regular.ttf */,
+				7983145527FDAC1E0036C148 /* Gilroy-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		79B3814C2820D64300A1F28C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79B3814D2820D66F00A1F28C /* LoginViewController.swift */,
+				79B3814F2820D68900A1F28C /* RegisterViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		79B381512820D7AA00A1F28C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				79B381522820D7E200A1F28C /* APIManager.swift */,
+				79B381542820DBAF00A1F28C /* APIController.swift */,
+				79B381562820DE1100A1F28C /* APIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		79B381582820DECA00A1F28C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79B381592820DED800A1F28C /* Account.swift */,
+				79B3815B2820E7D900A1F28C /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7983145127FDA9AF0036C148 /* Build configuration list for PBXNativeTarget "SHOPVN" */;
 			buildPhases = (
+				0BD41F51C5D0A0111E5F82D3 /* [CP] Check Pods Manifest.lock */,
 				7983143927FDA9AE0036C148 /* Sources */,
 				7983143A27FDA9AE0036C148 /* Frameworks */,
 				7983143B27FDA9AE0036C148 /* Resources */,
+				54D9260D382AFD700CD2EBE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7983144D27FDA9AF0036C148 /* LaunchScreen.storyboard in Resources */,
+				7983145A27FDAC1E0036C148 /* Gilroy-Regular.ttf in Resources */,
+				7983145827FDAC1E0036C148 /* Gilroy-SemiBold.ttf in Resources */,
+				7983145927FDAC1E0036C148 /* Gilroy-Medium.ttf in Resources */,
 				7983144A27FDA9AF0036C148 /* Assets.xcassets in Resources */,
 				7983144827FDA9AE0036C148 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +232,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BD41F51C5D0A0111E5F82D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHOPVN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54D9260D382AFD700CD2EBE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHOPVN/Pods-SHOPVN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHOPVN/Pods-SHOPVN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHOPVN/Pods-SHOPVN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7983143927FDA9AE0036C148 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7983144527FDA9AE0036C148 /* ViewController.swift in Sources */,
+				79B381552820DBAF00A1F28C /* APIController.swift in Sources */,
+				79B381532820D7E200A1F28C /* APIManager.swift in Sources */,
 				7983144127FDA9AE0036C148 /* AppDelegate.swift in Sources */,
+				7903DDFB27FDF4D9000C0F22 /* SplashScreenController.swift in Sources */,
+				79B381502820D68900A1F28C /* RegisterViewController.swift in Sources */,
+				79B3814E2820D66F00A1F28C /* LoginViewController.swift in Sources */,
+				79B381572820DE1100A1F28C /* APIService.swift in Sources */,
+				79B3815A2820DED800A1F28C /* Account.swift in Sources */,
+				79B3815C2820E7D900A1F28C /* User.swift in Sources */,
 				7983144327FDA9AE0036C148 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,12 +432,13 @@
 		};
 		7983145227FDA9AF0036C148 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F8B012F05727D6E3242855 /* Pods-SHOPVN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7Z5DWB469U;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SHOPVN/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -297,6 +446,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +454,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "app.web.nvn-it.SHOPVN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,12 +463,13 @@
 		};
 		7983145327FDA9AF0036C148 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE2C2941C2465BDE001E2BA /* Pods-SHOPVN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7Z5DWB469U;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SHOPVN/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,6 +477,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,6 +485,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "app.web.nvn-it.SHOPVN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
