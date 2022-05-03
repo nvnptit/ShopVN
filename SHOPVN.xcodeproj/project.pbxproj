@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		472620983EA8C3704870FB0C /* Pods_SHOPVN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533F8929D2900F7956564145 /* Pods_SHOPVN.framework */; };
-		7903DDFB27FDF4D9000C0F22 /* SplashScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7903DDFA27FDF4D9000C0F22 /* SplashScreenController.swift */; };
 		7983144127FDA9AE0036C148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983144027FDA9AE0036C148 /* AppDelegate.swift */; };
 		7983144327FDA9AE0036C148 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983144227FDA9AE0036C148 /* SceneDelegate.swift */; };
 		7983144827FDA9AE0036C148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7983144627FDA9AE0036C148 /* Main.storyboard */; };
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		533F8929D2900F7956564145 /* Pods_SHOPVN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHOPVN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE2C2941C2465BDE001E2BA /* Pods-SHOPVN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHOPVN.release.xcconfig"; path = "Target Support Files/Pods-SHOPVN/Pods-SHOPVN.release.xcconfig"; sourceTree = "<group>"; };
-		7903DDFA27FDF4D9000C0F22 /* SplashScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenController.swift; sourceTree = "<group>"; };
 		7983143D27FDA9AE0036C148 /* SHOPVN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHOPVN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7983144027FDA9AE0036C148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7983144227FDA9AE0036C148 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 				7983144927FDA9AF0036C148 /* Assets.xcassets */,
 				7983144B27FDA9AF0036C148 /* LaunchScreen.storyboard */,
 				7983144E27FDA9AF0036C148 /* Info.plist */,
-				7903DDFA27FDF4D9000C0F22 /* SplashScreenController.swift */,
 			);
 			path = SHOPVN;
 			sourceTree = "<group>";
@@ -282,7 +279,6 @@
 				79B381552820DBAF00A1F28C /* APIController.swift in Sources */,
 				79B381532820D7E200A1F28C /* APIManager.swift in Sources */,
 				7983144127FDA9AE0036C148 /* AppDelegate.swift in Sources */,
-				7903DDFB27FDF4D9000C0F22 /* SplashScreenController.swift in Sources */,
 				79B381502820D68900A1F28C /* RegisterViewController.swift in Sources */,
 				79B3814E2820D66F00A1F28C /* LoginViewController.swift in Sources */,
 				79B381572820DE1100A1F28C /* APIService.swift in Sources */,
