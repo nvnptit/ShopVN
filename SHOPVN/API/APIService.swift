@@ -19,4 +19,15 @@ struct APIService {
             return
         }
     }
+    public static func register(with email:String, and password:String, _ response: @escaping(String?, Account?) -> ()){
+        let params: [String: Any] = ["email": email, "password":password]
+        APIController.request(Account.self, APIManager.register, params: params) { error, data in
+            if let account = data{
+                response(nil,account)
+                return
+            }
+            response(error,nil)
+            print("Lỗi postRegister")
+        }
+    }
 }
